@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>解析結果</title>
+</head>
+<body>
+  <h2>結果のダウンロード</h2>
+
+  <h3>寄与率(%)</h3>
+  <form name="Contribution_Ratio" action="/Contribution_Ratio" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="ダウンロード">
+  </form>
+
+    <h3>固有ベクトル</h3>
+  <form name="Eigen_Vector" action="/Eigen_Vector" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="ダウンロード">
+  </form>
+
+    <h3>主成分スコア</h3>
+  <form name="Principal_Component_Score" action="/Principal_Component_Score" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="ダウンロード">
+  </form>
+
+    <h3>逆変換</h3>
+  <form name="std_recovered_score" action="/std_recovered_score" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="ダウンロード">
+  </form>
+
+    <h3>逆変換生データ(標準化をもどす）</h3>
+  <form name="recovered_raw_score" action="/recovered_raw_score" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="ダウンロード">
+  </form>
+
+</body>
+ </html>

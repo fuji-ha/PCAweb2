@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>データ入力</title>
+</head>
+<body>
+<h2>以下の形式のcsvファイルをアップロードして下さい</h2>
+<table border>
+<tr>
+<td>name</td>
+<td>x1</td>
+<td>x2</td>
+<td>x3</td>
+<td>x4</td>
+</tr>
+<tr>
+<td>a</td>
+<td>80</td>
+<td>90</td>
+<td>70</td>
+<td>80</td>
+</tr>
+<tr>
+<td>b</td>
+<td>90</td>
+<td>80</td>
+<td>90</td>
+<td>80</td>
+</tr>
+<tr>
+<td>c</td>
+<td>20</td>
+<td>30</td>
+<td>80</td>
+<td>90</td>
+</tr>
+<tr>
+<td>d</td>
+<td>70</td>
+<td>90</td>
+<td>20</td>
+<td>40</td>
+</tr>
+<tr>
+<td>e</td>
+<td>30</td>
+<td>40</td>
+<td>20</td>
+<td>30</td>
+</tr>
+</table>
+
+
+
+  <form action="/" method="POST" enctype="multipart/form-data">
+      <p>ファイル<input placeholder="csvデータ" type="file" name="csv"></p>
+      <br><br>
+      <h2>主成分数を入力して下さい</h2>
+
+      <p>主成分数<input placeholder="主成分数" type="number" name="num_member"></p>
+      <br><br>
+    <input type="submit" value="送信">
+  </form>
+</body>
+</html>
