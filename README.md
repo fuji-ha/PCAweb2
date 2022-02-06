@@ -5,7 +5,7 @@
 component_number = 2  
   
 ## 入力ファイル  
-###dataフォルダ内に保管  
+### dataフォルダ内に保管  
 raw_score.csv
    
 ファイル例  
@@ -21,7 +21,7 @@ raw_score.csv
 
 
 ## 出力ファイル
-###resultsフォルダに出力  
+### resultsフォルダに出力  
 元データ :　　　00_raw_score.csv  
 標準化データ:　　01_standard_score.csv  
 寄与率　:　　　　02_contribution_ratio.csv  
